@@ -1,0 +1,46 @@
+{
+  "name": "login-with-github-oauth",
+  "version": "1.0.0",
+  "private": false,
+  "author": "zshahab91",
+  "scripts": {
+    "start": "concurrently \"cd server && nodemon index.js \" \"react-scripts start\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "github-oauth": "^0.2.2",
+    "mdi-react": "^7.0.0",
+    "node-fetch": "^2.6.0",
+    "node-localstorage": "^2.1.6",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.0.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}
